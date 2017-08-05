@@ -17,3 +17,9 @@ Coding standards for Swappt
 * Imports no longer used should be removed
 * Don't import things you don't need. use `IMPORT FROM` and the dot separator.
 * Files should be lower case
+* The file you execute should be named `main.py`
+* Any utilities that don't get run but assist in production should be placed in a `utils` folder.
+* File paths in the code must use a `/`
+* Imports should be grouped by the module they are coming from
+* Excepts should directly state the type of exception they are catching
+* Anything that isn't a string should be coerced using `str()` and not the comma `,` syntax
